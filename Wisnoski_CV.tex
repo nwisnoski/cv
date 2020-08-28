@@ -1,171 +1,373 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% "ModernCV" CV and Cover Letter
+% Medium Length Professional CV
 % LaTeX Template
-% Version 1.11 (19/6/14)
+% Version 2.0 (8/5/13)
 %
 % This template has been downloaded from:
 % http://www.LaTeXTemplates.com
 %
 % Original author:
-% Xavier Danaux (xdanaux@gmail.com)
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% Trey Hunner (http://www.treyhunner.com/)
 %
 % Important note:
-% This template requires the moderncv.cls and .sty files to be in the same
-% directory as this .tex file. These files provide the resume style and themes
-% used for structuring the document.
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 
-\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\documentclass{resume} % Use the custom resume.cls style
 
-\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\usepackage[left=.75in,top=1in,right=.75in,bottom=1in]{geometry} % Document margins
+\usepackage{fancyhdr}
+\usepackage{datetime}
+\usepackage{eurosym}
+\usepackage{hyperref}
+\usepackage{hanging}
+\usepackage{csquotes}
+\newdateformat{mydate}{\THEMONTH/\THEYEAR}
+\fancyhf{} % sets both header and footer to nothing
+\renewcommand{\headrulewidth}{0pt}
+\rfoot{\mydate\today}
+\cfoot{\thepage}
 
-%\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
-
-\usepackage[scale=0.75]{geometry} % Reduce document margins
-%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
-%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
-
-
-%----------------------------------------------------------------------------------------
-%	NAME AND CONTACT INFORMATION SECTION
-%----------------------------------------------------------------------------------------
-
-\firstname{Nathan I.} % Your first name
-\familyname{Wisnoski} % Your last name
-
-% All information in this block is optional, comment out any lines you don't need
-\title{Curriculum Vitae}
-\address{1001 E. Third Street}{Bloomington, IN 47405}
-\mobile{(713) 823-5397}
-%\phone{() 111 1112}
-%\fax{(000) 111 1113}
-\email{wisnoski@indiana.edu}
-\homepage{nwisnoski.github.io}{nwisnoski.github.io} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
-\extrainfo{twitter: @nwisnoski}
-
-%----------------------------------------------------------------------------------------
+\name{\sc Nathan I. Wisnoski} % Your name
+\address{University of Wyoming \\ 1000 E. University Ave., Laramie, WY 82071} % Your address
+\address{nathan.wisnoski@uwyo.edu \\ \href{https://www.nathanwisnoski.com}{nathanwisnoski.com}} % Your phone number and email
 
 \begin{document}
 
-\makecvtitle % Print the CV title
-
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 %	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 
-\section{Education}
+\begin{rSection}{Education}
 
-\cventry{2014--Present}{Ph.D. in Biology}{Indiana University}{Bloomington}{}{Evolution, Ecology, and Behavior\\
-Advisor: Jay T. Lennon\\
-Minor: Environmental Sciences}  % Arguments not required can be left empty
-\cventry{2009--2013}{B.S. in Biology}{The University of Texas}{Austin}{}{Ecology, Evolution, and Behavior\\
-Minor: Business, McCombs School of Business}
+{\bf Indiana University, Bloomington} \hfill {2014 -- 2020} \\
+Ph.D in Biology -- Evolution, Ecology, and Behavior \\
+Minor in Environmental Sciences, O'Neill School of Public and Environmental Affairs
 
-%----------------------------------------------------------------------------------------
-%	Research EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
+{\bf The University of Texas at Austin} \hfill {2009 -- 2013} \\
+B.S. in Biology -- Ecology, Evolution, and Behavior \\
+Minor in Business, McCombs School of Business
 
-\section{Research Experience}
+\end{rSection}
+\bigskip
 
-\cventry{2014--Present}{Graduate Researcher}{Lennon Lab}{Indiana University}{}{}
+%-------------------------------------------------------------------------------
+%	RESEARCH EXPERIENCE SECTION
+%-------------------------------------------------------------------------------
 
-\cventry{2014}{Field/Lab Technician}{Hawkes Lab}{University of Texas}{}{}
+\begin{rSection}{Experience}
 
-\cventry{2010--2013}{Undergraduate Researcher}{Leibold Lab}{University of Texas}{}{}
+\begin{rSubsection}{Postdoctoral Researcher}{July 2020 -- Present}{University of Wyoming}{Laramie, WY}
+\item Albeke Lab: community assembly, biogeography, individual-based modeling, ecoinformatics 
+\item Shoemaker Lab: coexistence theory, metacommunity ecology, dispersal, and dormancy
+\end{rSubsection}
+
+\begin{rSubsection}{Graduate Researcher}{August 2014 -- May 2020}{Indiana University}{Bloomington, IN}
+\item Lennon Lab: metacommunity ecology, freshwater microbial ecology, multivariate statistics, and simulation modeling
+\end{rSubsection}
+
+\begin{rSubsection}{Graduate Teaching Assistant}{August 2014 -- May 2020}{Lennon Lab, Indiana University}{Bloomington, IN}
+\item Courses: Quantitative Biodiversity, Intro Biology (Biodiversity, Evolution, and Ecology), Biology Lab
+\end{rSubsection}
+
+\begin{rSubsection}{Lab \& Field Technician}{Spring 2014}{University of Texas}{Austin, TX}
+\item Hawkes Lab: soil microbial ecology and biogeochemistry
+\end{rSubsection}
+
+\begin{rSubsection}{Undergraduate Researcher}{Summer 2012 -- Spring 2014}{University of Texas}{Austin, TX}
+\item Leibold Lab: algal metacommunity ecology
+\end{rSubsection}
+
+\end{rSection}
+
+%-------------------------------------------------------------------------------
+%   Manuscripts
+%-------------------------------------------------------------------------------
+\begin{rhangSection}{Publications}
+
+\begin{Publication}{{\bf Wisnoski, N.I.}, M.E. Muscarella, M.L. Larsen, A.L. Peralta, and J.T. Lennon}{2020}{Metabolic insight into bacterial community assembly across ecosystem boundaries.}{Ecology 101(4):e02968}
+\end{Publication}
+
+\begin{Publication}{Mueller, E.A., {\bf N.I. Wisnoski}, A.L. Peralta, and J.T. Lennon}{2020}{Microbial rescue effects: how microbiomes can save hosts from extinction.}{Functional Ecology}
+\end{Publication}
+
+\begin{Publication}{Ward, A.S., S.M. Wondzell, N.M. Schmadel, S. Herzog, J.P. Zarnetske, V. Baranov, P.J. Blaen, N. Brekenfeld, R. Chu, R. Derelle, J. Drummond, J.H. Fleckenstein, V. Garayburu-Caruso, E. Graham, D. Hannah, C.J. Harman, J. Hixson, J.L.A. Knapp, S. Krause, M.J. Kurz, J. Lewandowski, A. Li, E. Marti, M. Miller, A.M. Milner, K. Neil, L. Orsini, A.I. Packman, S. Plont, L. Renteria, K. Roche, T. Royer, C. Segura, J. Stegen, J. Toyoda, J. Wells, and {\bf N.I. Wisnoski}}{2019}{Spatial and temporal variation in river corridor exchange across a 5th-order mountain stream network.}{Hydrology and Earth System Sciences 23:5199-5225} 
+\end{Publication}
+
+\begin{Publication}{Ward, A.S., M.J. Kurz, N.M. Schmadel, J.L.A. Knapp, P.J. Blaen, C.J. Harman, J.D. Drummond, D.M. Hannah, S. Krause, A. Li, E. Marti, A. Milner, M. Miller, K. Neil, S. Plont, A.I. Packman, {\bf N.I. Wisnoski}, S.M. Wondzell, and J.P. Zarnetske}{2019}{Solute transport and transformation in an intermittent, headwater mountain stream with diurnal discharge fluctuations.}{Water 11(11):2208}
+\end{Publication}
+
+\begin{Publication}{Ward, A.S., J.P. Zarnetske, V. Baranov, P.J. Blaen, N. Brekenfeld, R. Chu, R. Derelle, J. Drummond, J.H. Fleckenstein, V. Garayburu-Caruso, E. Graham, D. Hannah, C.J. Harman, S. Herzog, J. Hixson, J.L.A. Knapp, S. Krause, M.J. Kurz, J. Lewandowski, A. Li, E. Marti, M. Miller, A.M. Milner, K. Neil, L. Orsini, A.I. Packman, S. Plont, L. Renteria, K. Roche, T. Royer, N.M. Schmadel, C. Segura, J. Stegen, J. Toyoda, J. Wells, {\bf N.I. Wisnoski}, and S.M. Wondzell}{2019}{Co-located contemporaneous mapping of morphological, hydrological, chemical, and biological conditions in a 5th-order mountain stream network, Oregon, USA.}{Earth System Science Data 11:1567-1581}
+\end{Publication}
+
+\begin{Publication}{{\bf Wisnoski, N.I.}, M.A. Leibold, and J.T. Lennon}{2019}{Dormancy in metacommunities.}{The American Naturalist 194(2):135-151}
+\end{Publication}
+
+\bigskip
+{ In review/revision:}
+
+\begin{Prep}{{\bf Wisnoski, N.I.} and J.T. Lennon. In revision}{Microbial community assembly in a multi-layer dendritic metacommunity. bioRxiv: https://doi.org/10.1101/2020.01.31.929562}
+\end{Prep}
+
+\begin{Prep}{Mobilian, C., {\bf N.I. Wisnoski}, J.T. Lennon, M. Alber, S. Widney, C.B. Craft. In revision}{Differential effects of press versus pulse seawater intrusion on microbial communities of a tiday freshwater marsh.}
+\end{Prep}
+
+\begin{Prep}{Voelker, N.M., S. Record, P.L. Zarnetske, {\bf N.I. Wisnoski}, J.D. Tonkin, C.M. Swan, L. Marazzi, N. Lany, T. Lamy, A. Compagnoni, M.C.N. Castorani, R. Andrade, and E.R. Sokol. In revision}{Novel insights to be gained from applying metacommunity theory to long-term, spatially replicated biodiversity data.}
+\end{Prep}
+
+\begin{Prep}{Graham, E.B., C. Averill, B. Bond-Lamberty, J.E. Knelman, S. Krause, A.L. Peralta, A. Shade, A.P. Smith, S. Cheng, N. Fanin, C. Freund, P.E. Garcia, S.M. Gibbons, M.W. Van Goethem, M.B. Guebila, J. Kemppinen, R. Nowicki, J.G. Pausas, S. Reed, J. Rocca, A. Sengupta, D. Sihi, M. Simonin, M. Słowiński, S. Spawn, I. Sutherland, J. Tonkin, {\bf N. Wisnoski}, S.C. Zipper, and Contributor Consortium. In revision}{Towards a unifying framework of disturbance ecology through crowdsourced science.}
+\end{Prep}
+
+\bigskip
+{ In preparation (drafts available):}
+
+\begin{Prep}{{\bf Wisnoski N.I.} and J.T. Lennon}{Stabilizing role of seed banks and the maintenance of bacterial diversity.}
+\end{Prep}
+
+\begin{Prep}{{\bf Wisnoski N.I.}, R. Andrade, M.C.N. Castorani, C.P. Catano, A. Compagnoni, T. Lamy, N.K. Lany, L. Marazzi, S. Record, A.C. Smith, C.M. Swan, J.D. Tonkin, N.M. Voelker, P.L. Zarnetske, and E.R. Sokol}{Diversity-stability relationships in metacommunities.}
+\end{Prep}
+
+\begin{Prep}{Lamy, T., {\bf N.I. Wisnoski}, R. Andrade, M.C.N. Castorani, A. Compagnoni, N. Lany, L. Marazzi, S. Record, C.M. Swan, J.D. Tonkin, N. Voelker, S. Wang, P.L. Zarnetske, and E.R. Sokol}{The dual dimensions of metacommunity variability.}
+\end{Prep}
 
 
-%----------------------------------------------------------------------------------------
-%	Research Interests SECTION
-%----------------------------------------------------------------------------------------
+\end{rhangSection}
 
-\section{Research Interests}
+%-------------------------------------------------------------------------------
+%   Book Reviews
+%-------------------------------------------------------------------------------
+\bigskip
 
-\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+\begin{rhangSection}{Book Reviews}
 
-\cvlistitem{Community and metacommunity ecology}
-\cvlistitem{Microbial ecology of the hyporheic zone}
-\cvlistitem{Dendritic ecological networks}
-\cvlistitem{Microbial dormancy and seed banks}
+\begin{Publication}{{\bf Wisnoski, N.I.} and J.T. Lennon}{2016}{\enquote{Principles of Microbial Diversity} by James W. Brown.}{The Quarterly Review of Biology 91(1): 98-99}
+\end{Publication}
+
+\end{rhangSection}
+
+\bigskip
+
+%-------------------------------------------------------------------------------
+%   FUNDING/AWARDS/Fellowships
+%-------------------------------------------------------------------------------
+\begin{rSection}{Grants}
+
+\begin{Grant}{NSF LTER Network Communications Office (NCEAS)}{A synthesis to identify how metacommunity dynamics mediate community responses to disturbance across the ecosystems represented in the LTER network.}{PI: E.R. Sokol, co-PIs: C.M. Swan, {\bf N.I. Wisnoski}.}{\$76,000}{2016--2018}
+\end{Grant}
+
+% \begin{Grant}{IU Sustainability Research Development Grant}{How does hydrological flow rate alter bioremediation of pesticides at the surface- groundwater interface?}{PI: {\bf N.I. Wisnoski}}{\$5400}{2015}
+% \end{Grant}
+
+\begin{Grant}{IU Sustainability Research Development Grant}{}{}{\$5400}{2015}
+\end{Grant}
+
+\end{rSection}
+
+\bigskip
+
+\begin{rSection}{Fellowships and Awards}
+
+\begin{Award}{Louise Constable Hoover Fellowship, IU Biology}{\$2000}{2019}
+\end{Award}
+
+\begin{Award}{Travel Award, Association for the Sciences of Limnology and Oceanography}{\$606}{2018}
+\end{Award}
+
+\begin{Award}{Travel Award, ESA Microbial Ecology Section}{\$600}{2017}
+\end{Award}
+
+\begin{Award}{George W. Brackenridge Fellowship, IU Biology}{\$2000}{2016}
+\end{Award}
+
+\begin{Award}{Travel Award, International Society for Microbial Ecology}{\euro{}300}{2016}
+\end{Award}
+
+\begin{Award}{Travel Award, Honorable Mention, ESA Microbial Ecology Section}{\$150}{2016}
+\end{Award}
+
+\begin{Award}{Departmental Research Recruitment Fellowship, IU Biology}{ }{2014}
+\end{Award}
+
+\end{rSection}
+
+\bigskip
+%-------------------------------------------------------------------------------
+%   POSTERS / PRESENTATIONS
+%-------------------------------------------------------------------------------
+\begin{rhangSection}{Talks and Posters}
+  
+    \begin{Presentation}{{\bf Wisnoski, N.I.}, E.R. Sokol, R. Andrade, M.C.N. Castorani, C.P. Catano, A. Compagnoni, T. Lamy, N.K. Lany, L. Marazzi, S. Record, A.C. Smith, C.M. Swan, J.D. Tonkin, N.M. Voelker, P.L. Zarnetske}{2019}{Patterns and drivers of stability in long-term metacommunity data.}{Ecological Society of America Annual Meeting}{Louisville, KY}
+  \end{Presentation}
+  
+   \begin{Presentation}{{\bf Wisnoski, N.I.}, M.A. Leibold, J.T. Lennon}{2019}{Dormancy in metacommunities: when can temporal dispersal maintain diversity in variable landscapes?}{Society for Freshwater Science Annual Meeting}{Salt Lake City, UT}
+  \end{Presentation}
+  
+  \begin{Presentation}{Ward, A. S., C.J. Harman, N.M. Schmadel, M.J. Kurz, P. Blaen, S.M. Wondzell, J.D. Drummond, D.M. Hannah, J.L. Knapp, S. Krause, A. Li, E.R. Martí, M. Miller, A. Milner, K. Neil, S. Plont, K.R. Roche, A.I. Packman, {\bf N. Wisnoski}, J.P. Zarnetske}{2018}{How do evapotranspiration-driven discharge fluctuations alter reach-scale ecosystem function?}{American Geophysical Union, Fall Meeting}{Washington, D.C.}
+  \end{Presentation}
+  
+   \begin{Presentation}{Ward, A. S., S. Herzog, S.M. Wondzell, N.M. Schmadel, P. Blaen, J.D. Drummond, D.M. Hannah, C.J. Harman, J.L. Knapp, S. Krause, M.J. Kurz, A. Li, E. Martí, M. Miller, A. Milner, K. Neil, S. Plont, K.R. Roche, A.I. Packman, {\bf N. Wisnoski}, and J.P. Zarnetske}{2018}{Spatial and temporal relationships between hydrologic forcing, geologic setting, and river corridor exchange in a mountain stream network.}{American Geophysical Union, Fall Meeting}{Washington, D.C.}
+  \end{Presentation}
+  
+  \begin{Presentation}{Ward, A.S., S. Herzog, S.M. Wondzell, N. Schmadel, P. Blaen, J. Drummond, D.M. Hannah, C.J. Harman, J. Knapp, S. Krause, M.J. Kurz, A. Li, E. Marti, M. Miller, A. Milner, K. Neil, S. Plont, K. Roche, A.I. Packman, {\bf N. Wisnoski}, and J. Zarnetske}{2018}{How do hydrologic forcing and geologic setting control river corridor exchange in a 5th order mountain stream network?}{Geological Society of America Annual Meeting}{Indianapolis, IN}
+  \end{Presentation}
+  
+  \begin{Presentation}{{\bf Wisnoski, N.I.} and J.T. Lennon}{2018}{Contribution of \enquote{seed banks} to bacterioplankton community dynamics.}{Society for Freshwater Science Annual Meeting}{Detroit, MI}
+  \end{Presentation}
+  
+  \begin{Presentation}{Sokol, E.R., {\bf N.I. Wisnoski}, and C.M. Swan}{2018}{Using long-term data to understand when metacommunities respond to disturbance.}{Ecological Society of America Annual Meeting}{New Orleans, LA}
+  \end{Presentation}
+
+  \begin{Presentation}{{\bf Wisnoski, N.I.}, M.E. Muscarella, and J.T. Lennon}{2018}{Dispersal and dormancy across ecosystem boundaries.}{Association for the Sciences of Limnology and Oceanography}{Victoria, BC, Canada}
+  \end{Presentation}
+
+  \begin{Presentation}{{\bf Wisnoski, N.I.} and J.T. Lennon}{2017}{Microbial community assembly in dendritic metacommunities.}{Ecological Society of America Annual Meeting}{Portland, OR}
+  \end{Presentation}
+  
+  \begin{Presentation}{Sokol, E.R., {\bf N.I. Wisnoski}, C.M. Swan, R. Andrade, H.L. Bateman, A.G. Hope, J. Kominoski, N.K. Lany, L. Marazzi, S.J. Presley, A. Rassweiler, S. Record, M.R. Willig, and P.L. Zarnetske}{2017}{The role of long-term ecological research programs for testing metacommunity theory and understanding biodiversity patterns.}{Ecological Society of America Annual Meeting}{Portland, OR}
+  \end{Presentation}
+  
+  \begin{Presentation}{Voelker, N.M., E.R. Sokol, {\bf N.I. Wisnoski}, C.M. Swan, T. Lamy, M.C.N. Castorani, L. Marazzi, A. Compagnoni, J.R. Blanchard, R. Andrade, and N.K. Lany}{2017}{Evaluating the link between metacommunity stability and environmental variability across trophic groups represented at LTER sites.}{Ecological Society of America Annual Meeting}{Portland, OR}
+  \end{Presentation}
+
+  \begin{Presentation}{{\bf Wisnoski, N.I.} and J.T. Lennon}{2016}{Community assembly processes differ between surface water and sediment-associated communities in stream networks.}{Ecological Society of America Annual Meeting}{Fort Lauderdale, FL}
+  \end{Presentation}
+
+  \begin{Presentation}{{\bf Wisnoski, N.I.} and J.T. Lennon}{2016}{Local and regional processes in stream microbial community assembly (poster).}{International Symposium on Microbial Ecology (ISME 16)}{Montreal, QC}
+  \end{Presentation}
+
+  \begin{Presentation}{{\bf Wisnoski, N.I.}, A.S. Ward, and J.T. Lennon}{2015}{Bacterial metacommunity structure across a stream network (poster).}{LTER All Scientists Meeting}{Estes Park, CO}
+  \end{Presentation}
+
+\end{rhangSection}
+
+\bigskip
+
+%-------------------------------------------------------------------------------
+%	Teaching SECTION
+%-------------------------------------------------------------------------------
+\begin{rSection}{Teaching}
+
+\begin{Course}
+  {Co-Instructor}{BIOL-Z 620: Quantitative Biodiversity}{Indiana University}{Spring 2017}
+\end{Course}
+
+\begin{Course}
+  {Associate Instructor}{BIOL-L 111: Foundations of Biology: Diversity, Evolution, and Ecology}{Indiana University}{Spring 2016, Fall 2016, Spring 2018, Spring 2019, Spring 2020}
+\end{Course}
+
+\begin{Course}
+  {Associate Instructor}{BIOL-L 113: Biology Laboratory}{Indiana University}{Fall 2014, Fall 2017, Fall 2018, Fall 2019}
+\end{Course}
+
+\begin{Course}
+  {Grader}{BIO 364: Microbial Ecology}{University of Texas}{Spring 2014}
+\end{Course}
+
+\begin{Course}
+  {Teaching Assistant}{SSC 328M: Biostatistics}{University of Texas}{Spring 2013, Fall 2013}
+\end{Course}
+
+\end{rSection}
+
+\bigskip
+
+
+%-------------------------------------------------------------------------------
+%	Workshop Organizer SECTION
+%-------------------------------------------------------------------------------
+\begin{rSection}{Workshops}
+
+Lead Organizer. 2018. Synthesizing long-term community data: questions, challenges, and advances. LTER All Scientists Meeting. Pacific Grove, CA.
+
+\end{rSection}
+\bigskip
+
+\begin{rSection}{Peer Reviewer}
+Peer reviewer for the following journals: The American Naturalist, Aquatic Ecology, BioScience, Ecology, Ecology Letters, Environmental Microbiology, the ISME Journal, and Journal of Biogeography.
+\end{rSection}
+\bigskip
+
+%-------------------------------------------------------------------------------
+%	Mentorship Service SECTION
+%-------------------------------------------------------------------------------
+\begin{rSection}{Mentorship and Service}
+
+{Undergraduate and Summer REU STEM Mentor} \hfill Jan 2015 -- 2020
+%Undergraduate Mentees: Luke Pryke, Mollie Carrison\\
+%Summer REU Program: Jaylen Beatty, Mary Wallace, SydneyEllen Gooding
+
+
+{High School STEM Mentor} \hfill Summer 2015 -- 2020\\
+{\em Jim Holland Summer Scholars Program}
+%High School Mentees: Dakayla Calhoun, Samuel Iwu, Ian Schowe
+ 
+
+{Coordinator, High School Riverwatch Sampling} \hfill Summer 2017 -- 2019\\
+{\em Jim Holland Summer Enrichment Program}
+
+{EcoLunch Co-Organizer} \hfill August 2015 -- May 2016
+
+{Metacommunity Reading Group Organizer} \hfill Summer 2015
+
+\end{rSection}
+
+\bigskip
+
+%-------------------------------------------------------------------------------
+%	COMPUTATIONAL SKILLS SECTION
+%-------------------------------------------------------------------------------
+\begin{rSection}{Computational Skills}
+R, python, bash, Mathematica, \LaTeX, markdown, git/GitHub 
+
+\end{rSection}
+
+\bigskip
+
+%-------------------------------------------------------------------------------
+%	SOCIETY SECTION
+%-------------------------------------------------------------------------------
+\begin{rSection}{Professional Society Membership}
+
+Ecological Society of America\\
+%Association for the Sciences of Limnology and Oceanography\\
+%International Society for Microbial Ecology\\ 
+Society for Freshwater Sciences\\
+American Society of Naturalists\\ 
+
+\end{rSection}
+
+%-------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
+%	REFERENCES SECTION
+%-------------------------------------------------------------------------------
+% \newpage
+% \begin{rSection}{References}
+% 
+% Jay T. Lennon\\
+% lennonj@indiana.edu\\
+% Professor, Department of Biology\\
+% Indiana University -- Bloomington, IN
+% 
+% Mathew A. Leibold\\
+% mleibold@ufl.edu\\
+% Professor, Department of Biology\\
+% University of Florida -- Gainesville
+% 
+% Spencer R. Hall\\
+% sprhall@indiana.edu\\
+% Professor, Department of Biology\\
+% Indiana University -- Bloomington
+% 
+% \end{rSection}
 
 
 
-%----------------------------------------------------------------------------------------
-%	Presentation SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Posters and Presentations}
-
-\cvitem{2015}{\textbf{Wisnoski NI}, Ward AS, Lennon JT. \emph{Bacterial metacommunity structure across a stream network}. LTER All Scientists Meeting, Estes Park, CO.}
-\cvitem{2015}{\emph{Using the metacommunity concept to synthesize biodiversity patterns across LTER sites}, Working group participant and presenter. LTER All Scientists Meeting, Estes Park, CO.}
-
-%----------------------------------------------------------------------------------------
-%	Publications SECTION
-%----------------------------------------------------------------------------------------
-
-%\section{Publications}
-
-%\cvitem{2015}{\textbf{Wisnoski NI}, Lennon JT. \emph{Book Review: Principles of Microbial Diversity by James W. Brown}. Quarterly Review of Biology (In Review).}
-
-
-
-%----------------------------------------------------------------------------------------
-%	AWARDS SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Awards}
-
-\cvitem{2015}{Sustainability Research Development Grant (\emph{\$5400})}
-\cvitem{2014}{Departmental Research Recruitment Fellowship}
-
-
-%----------------------------------------------------------------------------------------
-%	TEACHING/SERVICE SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Service, Teaching, and Mentorship}
-
-\subsection{Service}
-\cvitem{2015--2016}{EcoLunch Co-Chair, Indiana University}
-\cvitem{2015}{Organizer, Metacommunity Reading Group, Indiana University}
-\cvitem{2014--2015}{EcoLunch Committee, Indiana University}
-
-
-\subsection{Teaching}
-\cvitem{Fall 2014}{Biology Lab, Indiana University. \emph{Associate Instructor.}}
-\cvitem{Spring 2014}{Microbial Ecology, University of Texas. \emph{Grader}}
-\cvitem{Fall 2013}{Biostatistics, University of Texas. \emph{Undergraduate Teaching Assistant}}
-\cvitem{Spring 2013}{Biostatistics, University of Texas. \emph{Undergraduate Teaching Assistant}}
-
-
-\subsection{Mentorship}
-\cvitem{2015--Present}{Luke Pryke, Indiana University. Luke is investigating the role of microbial dormancy in predator-prey interactions using the model organisms \emph{Bacillus subtilis} and \emph{Tetrahymena thermophila.}}
-\cvitem{Summer 2015}{Dakayla Calhoun, Jim Holland Summer Science Research Program. Dakayla identified changes in resource utilization across a variety of bacterial strains after years of long-term starvation. GitHub repository for the project located at \url{<https://github.com/LennonLab/SSRP_2015>}}
-
-%----------------------------------------------------------------------------------------
-%	COMPUTER SKILLS SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Computer Skills}
-
-\cvitem{Scripting}{\texttt{python}, \texttt{bash}}
-\cvitem{Analysis}{\textsf{R}, Mathematica, MATLAB}
-\cvitem{Productivity}{\LaTeX, markdown, \texttt{git}, Microsoft Office}
-
-%----------------------------------------------------------------------------------------
-%	Professional Society SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Professional Societies}
-
-\cvlistitem{Ecological Society of America (ESA)}
 
 \end{document}
