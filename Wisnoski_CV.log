@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  28 DEC 2021 09:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  2 AUG 2022 11:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -422,27 +422,27 @@ LaTeX Font Info:    Font shape `U/eurosym/m/it' in size <10.95> not available
 .
  [3]
 [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 372--377
+Underfull \hbox (badness 10000) in paragraph at lines 392--397
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 407.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 427.
 [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 407.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 427.
  (./Wisnoski_CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 407.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 407.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 427.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 427.
 Package rerunfilecheck Info: File `Wisnoski_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  7138 strings out of 480608
  109780 string characters out of 5903631
- 404709 words of memory out of 5000000
+ 405719 words of memory out of 5000000
  22890 multiletter control sequences out of 15000+600000
  547972 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,4n,45p,1013b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,5n,45p,1013b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
@@ -450,7 +450,7 @@ ive/2020/texmf-dist/fonts/type1/public/eurosym/feymo10.pfb></usr/local/texlive/
 2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2020/texmf
 -dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2020/texmf-dist/font
 s/type1/urw/times/utmri8a.pfb>
-Output written on Wisnoski_CV.pdf (6 pages, 82440 bytes).
+Output written on Wisnoski_CV.pdf (6 pages, 84203 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream
