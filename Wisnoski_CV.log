@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  4 OCT 2022 18:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.14)  19 OCT 2022 15:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -432,7 +432,7 @@ LaTeX Font Info:    Font shape `U/eurosym/m/it' in size <10.95> not available
 .
  [3]
 [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 386--391
+Underfull \hbox (badness 10000) in paragraph at lines 391--396
 
  []
 
@@ -455,7 +455,7 @@ ive/2022/texmf-dist/fonts/type1/public/eurosym/feymo10.pfb></usr/local/texlive/
 2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2022/texmf
 -dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2022/texmf-dist/font
 s/type1/urw/times/utmri8a.pfb>
-Output written on Wisnoski_CV.pdf (6 pages, 90252 bytes).
+Output written on Wisnoski_CV.pdf (6 pages, 90409 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream
