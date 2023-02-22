@@ -1,32 +1,32 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  28 AUG 2020 09:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.15)  22 FEB 2023 09:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **resume.cls
 (./resume.cls
-LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-03-06>
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-07>
 
 LaTeX Warning: You have requested package `',
                but the package provides `resume'.
 
 Package: resume 2010/07/10 v0.9 Resume class
-(/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count167
-\c@section=\count168
-\c@subsection=\count169
-\c@subsubsection=\count170
-\c@paragraph=\count171
-\c@subparagraph=\count172
-\c@figure=\count173
-\c@table=\count174
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen134
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
 )
 
 ! LaTeX Error: \usepackage before \documentclass.
@@ -78,18 +78,6 @@ l.28 \usepackage{
 between \documentclass and \begin{document}.
 
 
-! LaTeX Error: \usepackage before \documentclass.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 \usepackage{
-                 times}
-\usepackage may only appear in the document preamble, i.e.,
-between \documentclass and \begin{document}.
-
-
 ! LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -113,17 +101,10 @@ l.82 \let\ori@d
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-! Extra \endgroup.
-\document ->\endgroup 
-                      \str_if_exist:NF \c_sys_backend_str {\sys_load_backend...
-l.82 \let\ori@document=\document
-                                
-Things are pretty mixed up, but I think the worst is over.
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count175
-\l__pdf_internal_box=\box45
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count193
+\l__pdf_internal_box=\box51
 )
 (./resume.aux)
 \openout1 = `resume.aux'.
@@ -150,11 +131,11 @@ LaTeX Font Info:    ... okay on input line 82.
 
  
 Here is how much of TeX's memory you used:
- 391 strings out of 480608
- 6477 string characters out of 5903631
- 239610 words of memory out of 5000000
- 16370 multiletter control sequences out of 15000+600000
- 532638 words of font info for 25 fonts, out of 8000000 for 9000
+ 448 strings out of 476029
+ 8196 string characters out of 5790166
+ 1849346 words of memory out of 5000000
+ 20979 multiletter control sequences out of 15000+600000
+ 512587 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,1n,21p,139b,36s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,1n,38p,139b,36s stack positions out of 10000i,1000n,20000p,200000b,200000s
 !  ==> Fatal error occurred, no output PDF file produced!
