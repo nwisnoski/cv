@@ -185,10 +185,10 @@
 %	Grant FORMATTING
 %-------------------------------------------------------------------------------
 
-% Four args. 1: Agency, 2: Title, 3: PIs, 4: Amount, 5: Years
-\newenvironment{Grant}[5]{
+% Four args. 1: Year, 2: Amount, 3: Title
+\newenvironment{Grant}[3]{
 \hangpara{3em}{2}
- {#1.} {\em #2} {#3} {#4.} {#5.}
+ {#1} \quad {#2} \quad {#3}
 }
 
 %-------------------------------------------------------------------------------
