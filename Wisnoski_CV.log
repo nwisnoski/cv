@@ -1,16 +1,17 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.3)  3 AUG 2023 13:52
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.2)  7 SEP 2023 16:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Wisnoski_CV.tex
 (./Wisnoski_CV.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-02-22> (./resume.cls
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-06-30>
+(./resume.cls
 Document Class: resume 2010/07/10 v0.9 Resume class
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count181
 \c@section=\count182
@@ -32,7 +33,7 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks17
 )
 (/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
@@ -49,7 +50,7 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen141
 \ar@mcellbox=\box51
 \extrarowheight=\dimen142
-\NC@list=\toks17
+\NC@list=\toks18
 \extratabsurround=\skip50
 \backup@length=\skip51
 \ar@cellbox=\box52
@@ -71,10 +72,10 @@ Package: hanging 2009/09/02 v1.2b hanging paragraphs and punctuation
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec.sty
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2023-02-22 L3 programming layer (loader) 
+Package: expl3 2023-06-30 L3 programming layer (loader) 
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2023-01-16 L3 backend support: XeTeX
+File: l3backend-xetex.def 2023-04-19 L3 backend support: XeTeX
 \g__graphics_track_int=\count190
 \l__pdf_internal_box=\box53
 \g__pdf_backend_object_int=\count191
@@ -149,7 +150,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutheight=\dimen151
 \Gm@layouthoffset=\dimen152
 \Gm@layoutvoffset=\dimen153
-\Gm@dimlist=\toks18
+\Gm@dimlist=\toks19
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
@@ -177,8 +178,8 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks19
-\XKV@tempa@toks=\toks20
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
 )
 \XKV@depth=\count274
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -196,7 +197,7 @@ Package: fcnumparser 2017/06/15
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
+\@emptytoks=\toks22
 \ex@=\dimen154
 )
 \c@padzeroesN=\count276
@@ -230,15 +231,15 @@ put line 308.
 \dayofyear=\count298
 \dayofweek=\count299
 LaTeX Info: Redefining \today on input line 736.
-\dt@a=\toks22
-\dt@b=\toks23
+\dt@a=\toks23
+\dt@b=\toks24
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/eurosym/eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box54
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
+Package: hyperref 2023-07-08 v7.01b Hypertext links for LaTeX
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
@@ -271,7 +272,7 @@ Package auxhook Warning: Cannot patch \document,
 (auxhook)                using \AtBeginDocument instead.
 
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+Package: nameref 2023-08-07 v2.53 Cross-referencing by name of section
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -286,33 +287,30 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 \Hy@linkcounter=\count301
 \Hy@pagecounter=\count302
  (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2023-07-08 v7.01b Hyperref: PDFDocEncoding definition (HO)
 )
 (/usr/local/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(/usr/local/texlive/2023/texmf-dist/tex/generic/etexcmds/etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
 \Hy@SavedSpaceFactor=\count303
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2023-07-08 v7.01b Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Hyper figures OFF on input line 4177.
-Package hyperref Info: Link nesting OFF on input line 4182.
-Package hyperref Info: Hyper index ON on input line 4185.
-Package hyperref Info: Plain pages OFF on input line 4192.
-Package hyperref Info: Backreferencing OFF on input line 4197.
+Package hyperref Info: Hyper figures OFF on input line 4167.
+Package hyperref Info: Link nesting OFF on input line 4172.
+Package hyperref Info: Hyper index ON on input line 4175.
+Package hyperref Info: Plain pages OFF on input line 4182.
+Package hyperref Info: Backreferencing OFF on input line 4187.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4425.
+Package hyperref Info: Bookmarks ON on input line 4434.
 \c@Hy@tempcnt=\count304
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4763.
+LaTeX Info: Redefining \url on input line 4772.
 \XeTeXLinkMargin=\dimen156
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
@@ -325,13 +323,13 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 \Fld@menulength=\count305
 \Field@Width=\dimen157
 \Fld@charsize=\dimen158
-Package hyperref Info: Hyper figures OFF on input line 6042.
-Package hyperref Info: Link nesting OFF on input line 6047.
-Package hyperref Info: Hyper index ON on input line 6050.
-Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring OFF on input line 6062.
-Package hyperref Info: Link coloring with OCG OFF on input line 6067.
-Package hyperref Info: PDF/A mode OFF on input line 6072.
+Package hyperref Info: Hyper figures OFF on input line 6051.
+Package hyperref Info: Link nesting OFF on input line 6056.
+Package hyperref Info: Hyper index ON on input line 6059.
+Package hyperref Info: backreferencing OFF on input line 6066.
+Package hyperref Info: Link coloring OFF on input line 6071.
+Package hyperref Info: Link coloring with OCG OFF on input line 6076.
+Package hyperref Info: PDF/A mode OFF on input line 6081.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
@@ -344,7 +342,7 @@ package with kernel methods
 Package hyperref Info: Driver (autodetected): hxetex.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2023-02-07 v7.00v Hyperref driver for XeTeX
+File: hxetex.def 2023-07-08 v7.01b Hyperref driver for XeTeX
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
@@ -378,7 +376,7 @@ Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
 \csq@qlevel=\count316
 \csq@maxlvl=\count317
 \csq@tshold=\count318
-\csq@ltx@everypar=\toks24
+\csq@ltx@everypar=\toks25
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
@@ -421,7 +419,7 @@ LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
 6.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 46.
 LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 46.
@@ -560,277 +558,28 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 46--46
 [] 
  []
 
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 71.
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 75.
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 80.
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 84.
-
 [1
 
 ] [2]
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 158.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 158.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 158.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 158.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 158.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 158.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 166.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 169.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 172.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 175.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 178.
-
-
 LaTeX Font Info:    Font shape `U/eurosym/m/it' in size <10.95> not available
-(Font)              Font shape `U/eurosym/m/sl' tried instead on input line 178
+(Font)              Font shape `U/eurosym/m/sl' tried instead on input line 177
 .
 
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 181.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 184.
-
-
-
-Overfull \hbox (16.4345pt too wide) in paragraph at lines 205--207
+Overfull \hbox (16.4345pt too wide) in paragraph at lines 204--206
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--207
+Underfull \hbox (badness 10000) in paragraph at lines 204--206
 
  []
 
+[3] [4] [5] [6] (./Wisnoski_CV.aux)
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-06-30>
+ ***********
 
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 212.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 214.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 217.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 220.
-
-
-[3]
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 223.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 226.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 229.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 232.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 235.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 238.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 241.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 244.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 247.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 250.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 253.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 256.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 259.
-
-
-[4]
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 262.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 265.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 268.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 271.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 274.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 287.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 291.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 295.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 299.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 303.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 307.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 311.
-
-
-[5]
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 339.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 344.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 349.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 350.
-
-
-
-LaTeX Font Warning: Font shape `TU/TimesNewRoman(0)/m/scit' undefined
-(Font)              using `TU/TimesNewRoman(0)/m/it' instead on input line 367.
-
-
-[6] (./Wisnoski_CV.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -838,12 +587,12 @@ Package rerunfilecheck Info: File `Wisnoski_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13060 strings out of 476683
- 260857 string characters out of 5804048
- 1861018 words of memory out of 5000000
- 33131 multiletter control sequences out of 15000+600000
- 515663 words of font info for 63 fonts, out of 8000000 for 9000
+ 12919 strings out of 475890
+ 254891 string characters out of 5778499
+ 1927875 words of memory out of 5000000
+ 33787 multiletter control sequences out of 15000+600000
+ 561445 words of font info for 67 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,8n,91p,1013b,585s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,8n,107p,1013b,565s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on Wisnoski_CV.pdf (6 pages).
