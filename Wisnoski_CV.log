@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.2)  6 MAR 2024 10:48
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.2)  24 JUN 2024 16:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -387,18 +387,45 @@ Package csquotes Info: ... configuration file loaded successfully.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 ))
-(/usr/local/texlive/2023/texmf-dist/tex/latex/tabulary/tabulary.sty
-Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
-\TY@count=\count319
-\TY@linewidth=\dimen159
-\tymin=\dimen160
-\tymax=\dimen161
-\TY@tablewidth=\dimen162
+(/usr/local/texlive/2023/texmf-dist/tex/latex/xltabular/xltabular.sty
+Package: xltabular 2020/11/04 v0.2e `xltabular' package (hv,RN)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen159
+\TX@old@table=\dimen160
+\TX@old@col=\dimen161
+\TX@target=\dimen162
+\TX@delta=\dimen163
+\TX@cols=\count319
+\TX@ftn=\toks26
 )
+(/usr/local/texlive/2023/texmf-dist/tex/latex/ltablex/ltablex.sty
+Package: ltablex 2014/08/13 v1.1 Modified tabularx
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip70
+\LTright=\skip71
+\LTpre=\skip72
+\LTpost=\skip73
+\LTchunksize=\count320
+\LTcapwidth=\dimen164
+\LT@head=\box56
+\LT@firsthead=\box57
+\LT@foot=\box58
+\LT@lastfoot=\box59
+\LT@gbox=\box60
+\LT@cols=\count321
+\LT@rows=\count322
+\c@LT@tables=\count323
+\c@LT@chunks=\count324
+\LT@p@ftn=\toks27
+)))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/etaremune/etaremune.sty
 Package: etaremune 2005/06/01 v1.2 Reversed enumerate (HA)
-\c@EM@itemctr=\count320
-\c@EM@etaremunectr=\count321
+\c@EM@itemctr=\count325
+\c@EM@etaremunectr=\count326
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
@@ -562,29 +589,9 @@ Overfull \hbox (30.0pt too wide) in paragraph at lines 47--47
 
 ] [2]
 LaTeX Font Info:    Font shape `U/eurosym/m/it' in size <10.95> not available
-(Font)              Font shape `U/eurosym/m/sl' tried instead on input line 178
+(Font)              Font shape `U/eurosym/m/sl' tried instead on input line 177
 .
-
-Overfull \hbox (16.44144pt too wide) in paragraph at lines 209--211
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--211
-
- []
-
-[3] [4]
-Overfull \hbox (16.42722pt too wide) in paragraph at lines 300--302
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--302
-
- []
-
-[5] [6] [7] (./Wisnoski_CV.aux)
+ [3] [4] [5] [6] [7] (./Wisnoski_CV.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
@@ -597,12 +604,12 @@ Package rerunfilecheck Info: File `Wisnoski_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12922 strings out of 475890
- 254985 string characters out of 5778499
+ 13071 strings out of 475890
+ 257806 string characters out of 5778499
  1926875 words of memory out of 5000000
- 33789 multiletter control sequences out of 15000+600000
+ 33928 multiletter control sequences out of 15000+600000
  561453 words of font info for 68 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,8n,107p,1013b,565s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,8n,107p,1013b,616s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on Wisnoski_CV.pdf (7 pages).

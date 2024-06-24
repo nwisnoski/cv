@@ -25,12 +25,12 @@
 
 \usepackage[left=.75in,top=1in,right=.75in,bottom=1in]{geometry} % Document margins
 \usepackage{fancyhdr}
-\usepackage{datetime}
+\usepackage[nodayofweek]{datetime}
 \usepackage{eurosym}
 \usepackage{hyperref}
 \usepackage{hanging}
 \usepackage{csquotes}
-\usepackage{tabulary}
+\usepackage{xltabular}
 \usepackage[leftmargin=2.5em, listparindent=-1em,  labelsep = 1em]{etaremune} % to make hanging indent, add itemindent=-1em,
 \newdateformat{mydate}{\THEMONTH/\THEYEAR}
 \fancyhf{} % sets both header and footer to nothing
@@ -38,7 +38,7 @@
 \rfoot{\mydate\today}
 \cfoot{\thepage}
 \newcommand{\Star}{\ensuremath{^*}\kern-\scriptspace}
-\newcommand{\Dagger}{\ensuremath{^\dagger}\kern-\scriptspace}
+
 
 \name{\sc Nathan I. Wisnoski} % Your name
 \address{Mississippi State University \\ 295 Lee Blvd, Mississippi State, MS 39762} % Your address
@@ -94,7 +94,7 @@ Minor in Business, McCombs School of Business
 \begin{rSection}{Publications}
 
 \begin{etaremune}
-\item Von Eggers, J.M., {\bf N.I. Wisnoski}, J.W. Calder, E. Capo, D.V. Groff, A.C. Krist, and B. Shuman. In press. Environmental filtering governs consistent vertical zonation in sedimentary microbial communities across disconnected mountain lakes. Environmental Microbiology. 
+\item Von Eggers, J.M., {\bf N.I. Wisnoski}, J.W. Calder, E. Capo, D.V. Groff, A.C. Krist, and B. Shuman. 2024. Environmental filtering governs consistent vertical zonation in sedimentary microbial communities across disconnected mountain lakes. Environmental Microbiology 26(3):e16607. 
 
 \item {\bf Wisnoski, N.I.}, R. Andrade, M.C.N. Castorani, C.P. Catano, A. Compagnoni, T. Lamy, N.K. Lany, L. Marazzi, S. Record, A.C. Smith, C.M. Swan, J.D. Tonkin, N.M. Voelker, P.L. Zarnetske, and E.R. Sokol. 2023. Diversity-stability relationships become decoupled across spatial scales: a synthesis of organism and ecosystem types. Ecology 104(9):e4136.
 
@@ -145,8 +145,7 @@ Minor in Business, McCombs School of Business
 %   FUNDING/AWARDS/Fellowships
 %-------------------------------------------------------------------------------
 \begin{rSection}{Grants}
-{\def\arraystretch{1.5}
-\begin{tabulary}{0.95\textwidth}{lcL}
+\begin{xltabular}{\textwidth}{lc>{\raggedright\arraybackslash}X}
 2023--2025 & \$614,757 & Mississippi Based RESTORE Act Center of Excellence (MBRACE). \textit{Transport and fate of bacterial communities in Mississippi coastal ecosystems}. PI: {\bf N.I. Wisnoski}. \\
 
 2021--2022 & \$65,888 & Wyoming EPSCoR: Microbial Ecology Collaborative. \textit{Microbial community assembly in dendritic networks: disentangling the roles of local environmental heterogeneity, stochasticity, and dispersal}. PIs: {\bf N.I. Wisnoski} and S.E. Albeke.\\
@@ -154,14 +153,14 @@ Minor in Business, McCombs School of Business
 2016--2018 & \$76,000 & NSF LTER Network Communications Office (NCEAS). \textit{A synthesis to identify how metacommunity dynamics mediate community responses to disturbance across the ecosystems represented in the LTER network}. PI: E.R. Sokol, Co-PIs: C.M. Swan, {\bf N.I. Wisnoski}.\\
 
 2015 & \$5,400 & Indiana University. Sustainability Research Development Grant.
-
-\end{tabulary}
-}
+\end{xltabular}
 \end{rSection}
 
-\bigskip
 
 \begin{rSection}{Fellowships and Awards}
+
+\begin{Award}{Downer Undergraduate Research Award, First Place Mentor Award}{}{2024}
+\end{Award}
 
 \begin{Award}{Louise Constable Hoover Fellowship, IU Biology}{\$2000}{2019}
 \end{Award}
@@ -191,8 +190,8 @@ Minor in Business, McCombs School of Business
 %   POSTERS / PRESENTATIONS
 %-------------------------------------------------------------------------------
 \begin{rSection}{Invited Presentations}
-{\def\arraystretch{1}
-\begin{tabulary}{\textwidth}{lL}
+{\def\arraystretch{1.2}
+\begin{xltabular}{\textwidth}{l>{\raggedright\arraybackslash}X}
 2024 & Invited speaker, ``Linking pattern to process in (meta)community assembly'', Ecological Society of America, Long Beach, CA\\
 
 2023 & Invited speaker, ``Workshop: Critical phenomena and challenges emerging from dormancy'', Goethe Universität, Frankfurt, Germany\\
@@ -206,11 +205,11 @@ Minor in Business, McCombs School of Business
 2021 & Seminar, Mississippi State University, Department of Biological Sciences\\
 
 2020 & Seminar, University of Wyoming, Department of Botany\\
-\end{tabulary}
+\end{xltabular}
 }
+
 \end{rSection}
 
-\bigskip
 
 \begin{rhangSection}{Contributed Presentations}
 {\small\em Note: * = Presenter}
@@ -289,18 +288,18 @@ Minor in Business, McCombs School of Business
 %	Workshop Organizer SECTION
 %-------------------------------------------------------------------------------
 \begin{rSection}{Workshops and Symposia}
-{\def\arraystretch{1.5}
-\begin{tabulary}{\textwidth}{lL}
-2022 & Invited working group participant, ``Workshop: Merging Statistical Theory and Analyses at the Interface of Microbial and ‘Macrobial’ Ecology'', Montreal, QC, Canada (ongoing) \\
+{\def\arraystretch{1}
+\begin{xltabular}{\textwidth}{l>{\raggedright\arraybackslash}X}
+2022 & Invited working group participant, ``Workshop: Merging Statistical Theory and Analyses at the Interface of Microbial and ‘Macrobial’ Ecology'', Montreal, QC, Canada \\
 
 2018 & Lead organizer, ``Synthesizing long-term community data: questions, challenges, and advances'', LTER All Scientists Meeting. Pacific Grove, CA\\
 
-2016-2023 & Co-organizer, ``LTER metacommunities working group'', NSF LTER Network Communications Office, NCEAS, Santa Barbara, CA\\
+2016--2023 & Co-organizer, ``LTER metacommunities working group'', NSF LTER Network Communications Office, NCEAS, Santa Barbara, CA\\
 
-\end{tabulary}
+\end{xltabular}
 }
 \end{rSection}
-\bigskip
+
 
 %-------------------------------------------------------------------------------
 %	Teaching SECTION
@@ -346,7 +345,9 @@ Minor in Business, McCombs School of Business
 \begin{rSection}{Advising}
 {\bf Mississippi State University} (2022-present)
 \begin{itemize}
+  \item Ph.D. Students: Jenny Marie Patalinghug, Sadia Nusrat Sharna
   \item Undergraduates: Tajinder Singh
+  \item Graduate Committees: Tristan Henderson (2022-)
 \end{itemize}
 
 {\bf Indiana University} (2014-2020)
@@ -363,12 +364,9 @@ Minor in Business, McCombs School of Business
 %-------------------------------------------------------------------------------
 \begin{rSection}{Service}
 {\bf Grant Review Panels:}
-{\def\arraystretch{1.5}
-
-\begin{tabulary}{\textwidth}{lL}
+\begin{xltabular}{0.95\textwidth}{l>{\raggedright\arraybackslash}X}
 2022 & Long-Term Ecological Research (LTER) Network: Synthesis Working Groups
-\end{tabulary}
-}
+\end{xltabular}
 
 {\bf Grant Reviewer, ad hoc:}
 \begin{itemize}
@@ -377,38 +375,51 @@ Minor in Business, McCombs School of Business
 
 {\bf Peer Reviewer, ad hoc:}
 \begin{itemize}
-  \item {\em Journals}: American Naturalist, Applied and Environmental Microbiology, Aquatic Ecology, Austral Ecology, Biogeosciences, Biology Letters, BioScience, Ecography, Ecological Indicators, Ecology, Ecology Letters, Ecosystem Health and Sustainability, Environmental Microbiology, FEMS Microbial Ecology, Freshwater Science, Global Ecology and Biogeography, The ISME Journal, Journal of Biogeography, Journal of Ecology, Microbial Ecology, mSystems, and New Phytologist.
-  \item {\em Books}: Kirchman (2018) Processes in Microbial Ecology (2nd Ed.)
-\end{itemize}
+\item {\em Journals}: American Naturalist, Applied and Environmental Microbiology, Aquatic Ecology, Austral Ecology, Biogeosciences, Biology Letters, BioScience, Ecography, Ecological Applications, Ecological Indicators, Ecology, Ecology Letters, Ecosystem Health and Sustainability, Environmental Microbiology, FEMS Microbial Ecology, Freshwater Science, Global Ecology and Biogeography, The ISME Journal, Journal of Biogeography, Journal of Ecology, Microbial Ecology, mSystems, New Phytologist, and Proceedings of the National Academy of Sciences.
 
-{\bf Community Outreach:}
-\begin{itemize}
-  \item {Coordinator, High School Riverwatch Sampling} \hfill Summer 2017 -- 2019
+\item {\em Books}: Kirchman (2018) Processes in Microbial Ecology (2nd Ed.)
 \end{itemize}
 
 {\bf Professional Societies:}
-\begin{itemize}
-  \item Moderator, Organized Oral Session: {\em Advancing ecological theory through synthesis of long-term ecological research}, Ecological Society of America, Portland, OR. \hfill 2017
-  
-\end{itemize}
+{\def\arraystretch{1}
+\begin{xltabular}{0.95\textwidth}{l>{\raggedright\arraybackslash}X}
+2017 & Moderator, Organized Oral Session: {\em Advancing ecological theory through synthesis of long-term ecological research}, Ecological Society of America, Portland, OR\\
+\end{xltabular}
+}
 
 {\bf University, College, Department:}
-\begin{itemize}
-  \item Graduate Committee, Biology Dept. Mississippi State University \hfill 2024 -- Present
-  \item Faculty Search Committee, Biology Dept. Mississippi State University \hfill 2023 -- 2024
-  \item Zernickow Award Committee, Biology Dept. Mississippi State University \hfill 2022 -- Present
-  \item Graduate Recruiting Weekend, Biology Dept. Indiana University \hfill 2014 -- 2020
-  \item EcoLunch Co-Organizer, Indiana University \hfill 2015 -- 2016
-  \item Organizer, Metacommunity Reading Group, Indiana University \hfill 2015
-\end{itemize}
+{\def\arraystretch{1}
+\begin{xltabular}{0.95\textwidth}{l>{\raggedright\arraybackslash}X}
+2024-- & Graduate Committee, Biology Dept. Mississippi State University\\
+
+2023--2024 & Faculty Search Committee, Biology Dept. Mississippi State University\\
+
+2022-- & Zernickow Award Committee, Biology Dept. Mississippi State University\\
+
+2014--2020 & Graduate Recruiting Weekend, Biology Dept. Indiana University\\
+
+2015--2016 & EcoLunch Co-Organizer, Indiana University\\
+
+2015 & Organizer, Metacommunity Reading Group, Indiana University\\
+
+\end{xltabular}
+}
+
+{\bf Community Outreach:}
+{\def\arraystretch{1}
+\begin{xltabular}{0.95\textwidth}{l>{\raggedright\arraybackslash}X}
+2017--2019 & Coordinator, High School Riverwatch Sampling\\
+\end{xltabular}
+}
+
 
 \end{rSection}
-\bigskip
+
 
 \begin{rSection}{Academic Advisors}
-Jay Lennon, Indiana University (Ph.D.) \\
-Shannon Albeke, University of Wyoming (Postdoc) \\
-Lauren Shoemaker, University of Wyoming (Postdoc) 
+Jay Lennon (Ph.D.) \\
+Lauren Shoemaker (Postdoc) \\
+Shannon Albeke (Postdoc) 
 %Mathew Leibold, University of Texas (B.S.)
 \end{rSection}
 \bigskip
@@ -451,6 +462,7 @@ Lauren Shoemaker, University of Wyoming (Postdoc)
 % 
 % \end{rSection}
 
+Date updated: \today
 
 
 
