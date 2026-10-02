@@ -35,7 +35,11 @@
 \displaywidowpenalty=10000
 
 \providecommand{\CVName}{Nathan I. Wisnoski}
-\providecommand{\CVUpdated}{August 2026}
+% Use the compilation date for the footer's month and year.
+\providecommand{\CVUpdated}{%
+  \ifcase\month\or January\or February\or March\or April\or May\or June%
+  \or July\or August\or September\or October\or November\or December\fi
+  \space\number\year}
 
 \pagestyle{fancy}
 \fancyhf{}

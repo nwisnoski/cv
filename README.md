@@ -106,4 +106,4 @@ entries share the same upright label/date gutter.
 
 Teaching is maintained as a four-column `tabularx` block in `Wisnoski_CV.tex`. Keep its rows in descending order by the most recent teaching date.
 
-Change `\CVUpdated` near the top of `Wisnoski_CV.tex` when releasing a new version.
+The footer automatically displays the compilation month and year as “Updated Month Year.”
